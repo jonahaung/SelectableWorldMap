@@ -11,7 +11,8 @@ import SwiftUI
 struct SelectableWorldMapApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            WorldView.SwiftUIView(selected: [])
+                .statusBarHidden(true)
         }
     }
 }
